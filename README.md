@@ -2,6 +2,9 @@
 
 This is a Flutter Application that uses Tensorflow lite to classify the uploaded asset as cat or dog, i.e. from Device Camera or Gallery
 
+![Splash Page](demo/splash_gif.gif)
+![Home Page Working](demo/classifier_gif.gif)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
