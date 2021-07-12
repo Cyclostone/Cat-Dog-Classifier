@@ -1,16 +1,63 @@
-# cat_dog_classiffier
+# Cat_Dog_Classifier
 
-A new Flutter project.
+This is a Flutter Application that uses Tensorflow lite to classify the uploaded asset as cat or dog, i.e. from Device Camera or Gallery
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+What things you need to install the software and how to install them
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Download Flutter sdk from flutter.dev.
+Copy the sdk to C:\src\flutter
+Launch flutter_console
+
+```
+flutter doctor
+```
+
+This command would give you a clear interpretation of remaining tasks to be completed for flutter to operate successfully.
+
+### Installing
+If you are new to app dev, use Android Studio to install Android SDK effortlessly by installing it.
+
+Now, Download VS Code and install it.
+(You can also use Android Studio if you prefer that)
+
+After installing, install Dart and Flutter extensions from extension store.
+
+Now, Connect the respective device to your laptop i.e.
+* iOS Device for Mac
+* Android Device for Windows
+
+Now, We can Start a project by simple Command
+```
+Ctrl+Shift+P
+```
+
+And to run this Flutter Project smoothly.
+Go to Terminal Console
+
+```
+flutter run --no-sound-null-safety
+```
+
+Download some cat & dogs photos in your gallery prior.
+
+## Built With
+
+* [Flutter](https://flutter.dev/) - The Cross Platform framework used for App & Web Development
+* [Tensorflow lite](https://www.tensorflow.org/lite) - TensorFlow Lite is an open source deep learning framework for on-device inference.
+* [SplashScreen](https://pub.dev/packages/splashscreen) - It is a Flutter package that effortlessly create splashcreen to make application intuitive.
+
+## Authors
+
+* **Arpit Shrotriya** - *Initial work* - [Cyclostone](https://github.com/Cyclostone)
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* Integrating Tensorflow and Flutter
+* Inspiration
